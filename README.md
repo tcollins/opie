@@ -1,6 +1,6 @@
 # Opie
 
-## A Simplified Command Line Tool for AWS OpsWorks
+### A Simplified Command Line Tool for AWS OpsWorks
 
 
 ### What's Opie?
