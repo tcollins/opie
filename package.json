@@ -1,0 +1,29 @@
+{
+  "name": "opie",
+  "version": "1.0.0",
+  "description": "Opie: A Simplified Command Line Tool for AWS OpsWorks",
+  "author": "Tim Collins <timmyc8m@yahoo.com>",
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "opsworks",
+    "deploy"
+  ],
+  "preferGlobal": true,
+  "main": "index.js",
+  "bin": {
+    "opie": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "2.5.3",
+    "bluebird": "3.4.3",
+    "chalk": "1.1.3",
+    "commander": "2.9.0",
+    "jsonfile": "2.3.1",
+    "pkginfo": "0.4.0",
+    "table-master": "1.0.3"
+  }
+}
