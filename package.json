@@ -1,10 +1,11 @@
 {
   "name": "opie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Opie: A Simplified Command Line Tool for AWS OpsWorks",
   "author": "Tim Collins <timmyc8m@yahoo.com>",
   "license": "MIT",
   "keywords": [
+    "cli",
     "aws",
     "opsworks",
     "deploy"

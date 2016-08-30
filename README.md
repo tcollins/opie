@@ -63,6 +63,12 @@ A config file will be generated into your home dir.  The region defaults to "us-
 ``~/.opie.json``
 
 
+### AWS credentials
+
+Opie uses your same AWS credentials that the AWS CLI uses. It will look for your Access Key ID and Secret Access Key located at ``~/.aws/credentials``.  If you are already using the AWS CLI, then you shouldn't need to do anything additional.
+
+You can read more about how to set this up in the [AWS CLI Getting Started Guide](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+
 
 <br/>
 
