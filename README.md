@@ -36,7 +36,8 @@ The Stack Id is called OpsWorks Id in AWS and can be found on the stack settings
 ![Stack Id Screenshot](stack-id.png "Stack Id")
 
 
-> **Pro Tip!**  You can add more than one stack.  Just call ``add-stack`` for every stack you have.
+> **Pro Tip!**  
+> You can have more than one stack.  Just call ``add-stack`` for every stack you have.
 
 
 ### Commands
@@ -49,8 +50,10 @@ The Stack Id is called OpsWorks Id in AWS and can be found on the stack settings
 
 
 
-> **Pro Tip!**  You only need include the *stack* argument if more than one stack has the same instance name.
-
+> **Pro Tip!**  
+>   You only need to include the *stack* argument if more than one stack has the same instance name.
+>   
+>    You can include a comment with the ``deploy`` command by using ``--comment "your comment"``.
 
 
 ### Config
@@ -61,8 +64,6 @@ A config file will be generated into your home dir.  The region defaults to "us-
 
 
 
-> **Pro Tip!**  You can include a comment with the ``deploy`` command by including ``--comment "your comment"``.
-
-
+<br/>
 
 [![NPM](https://nodei.co/npm/opie.png?downloads=true)](https://www.npmjs.com/package/opie)

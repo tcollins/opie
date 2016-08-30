@@ -1,6 +1,6 @@
 {
   "name": "opie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Opie: A Simplified Command Line Tool for AWS OpsWorks",
   "author": "Tim Collins <timmyc8m@yahoo.com>",
   "license": "MIT",
@@ -16,6 +16,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcollins/opie.git"
   },
   "dependencies": {
     "aws-sdk": "2.5.3",
